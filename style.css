@@ -1,0 +1,46 @@
+/* Google font  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+
+/* basic setup */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header  */
+
+.header {
+    background-color: #264653;
+}
+
+/* nav a */
+.color-white {
+    color: white;
+}
+
+.header .header-btn {
+    color: white;
+    background-color: #E76F51;
+    padding: 8px 16px;
+}
+
+.header .text-color {
+    color: #ccc7c7;
+}
+
+
+.header .p-tag {
+    width: 70%;
+    font-size: 14px;
+
+}
+
+@media screen and (max-width: 688px) {
+    .header .p-tag {
+      font-size: 15px;
+       width: 100%;
+    }
+    
+}
+
