@@ -8,10 +8,13 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* header  */
+
+/* ======start  header ========== */
 
 .header {
     background-color: #264653;
+    max-width: 1200px;
+    margin : 0 auto;
 }
 
 /* nav a */
@@ -19,7 +22,7 @@ body {
     color: white;
 }
 
-.header .header-btn {
+.custom-btn {
     color: white;
     background-color: #E76F51;
     padding: 8px 16px;
@@ -43,4 +46,48 @@ body {
     }
     
 }
+/* ======end header ========== */
 
+
+
+
+/* ======start Feture bike section ========== */
+.p-tag-2 {
+    color:  #E76F51;
+}
+
+.hr-tag {
+    width: 70px;
+    margin: auto;
+    background-color: red;
+    padding: 1px;
+
+}
+
+.gray-img-1 {
+    filter: grayscale(100%);
+
+}
+
+.gray-img-2 {
+    filter: grayscale(90%)
+
+}
+/* ======end  Feture bike section ========== */
+
+
+
+/* ======start happy clients section ========== */
+
+ .span-tag {
+
+    color: #E76F51;
+
+  }
+
+  .star-icon , .star {
+     color:   #E76F51; 
+  }
+
+ 
+/* ======end happy clients section ========== */
