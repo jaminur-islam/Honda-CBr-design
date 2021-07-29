@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 
+.star-icon {
+    width: 22px ;
+    height: 22px;
+}
+
 /* basic setup */
 
 body {
@@ -91,3 +96,24 @@ body {
 
  
 /* ======end happy clients section ========== */
+
+
+/* ======Start Frequently Questions section  ========== */
+
+ .frequently-img {
+     width: 80%;
+ }
+
+ .text-sizing {
+     font-size: 13px;
+     
+ }
+
+ @media screen and (max-width: 688px) {
+    .frequently-img {
+      width: 100%;
+    }
+    
+}
+
+/* ======end  Frequently Questions section  ========== */
